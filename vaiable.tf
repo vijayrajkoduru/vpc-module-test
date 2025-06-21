@@ -1,11 +1,11 @@
 
 variable "project_name" {
-  default = "expense"
+  default = "Cybersecurity"
 
 }
 
 variable "environment" {
-  default = "dev"
+  default = "prod"
 
 }
 
@@ -15,15 +15,15 @@ variable "vpc_cidr" {
 
 variable "common_tags" {
   default = {
-    project_name = "expense"
-    Environment  = "dev"
+    project_name = "Cybersecurity"
+    Environment  = "prod"
     Terraform    = "true"
   }
 }
 
 variable "vpc_tags" {
   default = {
-    purpose = "assignment"
+    purpose = "Task"
   }
 }
 
